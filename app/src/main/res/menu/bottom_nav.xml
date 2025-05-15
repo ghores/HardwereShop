@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-
-
-        <item
+    <item
         android:id="@+id/home"
         android:icon="@drawable/home_tab"
         android:title="@string/title_home" />
@@ -15,11 +13,9 @@
         android:id="@+id/cart"
         android:icon="@drawable/cart_tab"
         android:title="@string/title_carts" />
-
     <item
-        android:icon="@drawable/profile_tab"
-
         android:id="@+id/profile"
+        android:icon="@drawable/profile_tab"
         android:title="@string/title_profiles" />
 
 </menu>
