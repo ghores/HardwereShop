@@ -1,4 +1,4 @@
-package com.example.hardwereshop
+package com.example.hardwareshop
 
 import org.junit.Test
 

@@ -1,7 +1,33 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HardwereShop" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.HardwareShop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!--  Secondary brand color.  -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--  Status bar color.  -->
+        <!-- <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!--  Customize your theme here.  -->
+    </style>
+    <style name="Theme.Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--  Primary brand color.  -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--  Secondary brand color.  -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue2</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--  Status bar color.  -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!--         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item> -->
+        <!--  Customize your theme here.  -->
+        <item name="fontFamily">@font/vazir_medium</item>
+        <item name="android:fontFamily">@font/vazir_medium</item>
+        <item name="materialButtonStyle">@style/ButtomStyle</item>
     </style>
 </resources>
